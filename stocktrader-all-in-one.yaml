@@ -32,6 +32,7 @@ spec:
         image: @registryHostAndRepo@/loyalty-level:latest
 #       image: ibmstocktrader/loyalty-level:latest # Pull from docker hub by default
 #       image: registry.ng.bluemix.net/stock_trader/loyalty-level:latest # IBM Container Service
+# 
 
         env:
           - name: MQ_ID
